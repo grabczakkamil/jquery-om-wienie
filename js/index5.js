@@ -13,11 +13,14 @@ $(function(){
     })
      $("#buttonH2").click(function() {
         $("h2").slideUp("3000ms").slideDown("3000ms");
-         
+      })
+    
+    animateDiv();
+    
     function animateDiv() {
         $('div')
-            .animate({width:'200px', height:'200px'}, 2000)
-        .anmiate({width:'100px',height:'100px'}, 2000, animateDiv)
+        .animate({width:'200px', height:'200px'}, 2000)
+        .animate({width:'100px', height:'100px'}, 2000, animateDiv)
     }
-})
+         
 })
