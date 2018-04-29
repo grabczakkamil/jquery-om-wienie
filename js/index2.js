@@ -7,6 +7,6 @@ $(function() {
     
     console.log(paragraf.text());
     
-    $p
+    
     
 })
